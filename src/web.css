@@ -28,4 +28,5 @@ body {
 
 #output {
     background-color: #ccc;
+    white-space: pre-wrap;
 }
