@@ -1,0 +1,27 @@
+{
+  "name": "pantazisify",
+  "version": "0.1.0",
+  "description": "Convert text into emojies",
+  "main": "lib/pantazisify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "make": "npm run clean && mkdir lib && babel src/pantazisify.js --out-file lib/pantazisify.js && node bin/makeMapping.js",
+    "clean": "rm -rf lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seamusleahy/emojify.git"
+  },
+  "author": "Seamus P. H. Leahy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seamusleahy/emojify/issues"
+  },
+  "homepage": "https://github.com/seamusleahy/emojify#readme",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-loader": "^6.2.10",
+    "webpack": "^1.14.0"
+  }
+}
