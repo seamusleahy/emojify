@@ -8,6 +8,7 @@
   "t": "\uD83C\uDF75",
   "us": "\uD83C\uDDFA\uD83C\uDDF8",
   "poop": "\uD83D\uDCA9",
+  "shite": "\uD83D\uDCA9",
   "sleep": "\uD83D\uDCA4",
   "cat": "\uD83D\uDC31",
   "butt": "\uD83C\uDF51",
@@ -15,5 +16,22 @@
   "wine": "\uD83C\uDF77",
   "wine glass": "\uD83C\uDF77",
   "glass of wine": "\uD83C\uDF77",
-  "man": "\uD83D\uDC68"
+  "man": "\uD83D\uDC68",
+  "computer": "\uD83D\uDCBB",
+  "laptop": "\uD83D\uDCBB",
+  "calendar": "\uD83D\uDCC5",
+  "date": "\uD83D\uDCC5",
+  "light": "\uD83D\uDCA1",
+  "light bulb": "\uD83D\uDCA1",
+  "lightbulb": "\uD83D\uDCA1",
+  "idea": "\uD83D\uDCA1",
+  "beer": "\uD83C\uDF7A",
+  "beers": "\uD83C\uDF7B",
+  "drinking": "\uD83C\uDF7B",
+  "cookie": "\uD83C\uDF6A",
+  "chocolate chip cookie": "\uD83C\uDF6A",
+  "hotdog": "\uD83C\uDF2D",
+  "hot dog": "\uD83C\uDF2D",
+  "ghost": "\uD83D\uDC7B"
+
 }
