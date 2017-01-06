@@ -76,5 +76,20 @@
   "trademark": "\u2122\uFE0F",
   "repeat": "\uD83D\uDD01",
   "loop": "\uD83D\uDD01",
-  "random": "\uD83D\uDD00"
+  "random": "\uD83D\uDD00",
+  "ng": "\uD83C\uDD96",
+  "cool": "\uD83C\uDD92",
+  "clock": "\uD83D\uDD70",
+  "time": "\uD83D\uDD70",
+  "1:00": "\uD83D\uDD50",
+  "1am": "\uD83D\uDD50am",
+  "1pm": "\uD83D\uDD50pm",
+  "2:00": "\uD83D\uDD51",
+  "2am": "\uD83D\uDD51am",
+  "2pm": "\uD83D\uDD51pm",
+  "5:00": "\uD83D\uDD54",
+  "5am": "\uD83D\uDD54am",
+  "5pm": "\uD83D\uDD54pm",
+  "hour": "\u23F3",
+  "hourglass": "\u23F3"
 }
