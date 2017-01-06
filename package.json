@@ -1,0 +1,36 @@
+{
+  "name": "pantazisify",
+  "version": "0.1.0",
+  "description": "Convert text into emojies",
+  "main": "lib/pantazisify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "make": "npm run clean && mkdir lib && npm run make:pantazisify && npm run make:mappings && npm run make:web",
+    "make:pantazisify": "babel src/pantazisify.js --out-file lib/pantazisify.js",
+    "make:mappings": "node bin/makeMapping.js",
+    "make:web": "webpack",
+    "clean": "rm -rf lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seamusleahy/emojify.git"
+  },
+  "author": "Seamus P. H. Leahy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seamusleahy/emojify/issues"
+  },
+  "homepage": "https://github.com/seamusleahy/emojify#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.6.1",
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "postcss-loader": "^1.2.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0"
+  }
+}
