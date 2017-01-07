@@ -16,6 +16,11 @@ const updateOutput = debounce(function() {
     return;
   }
 
+  if (!output.output) {
+    outputEl.innerHTML = '';
+    return;
+  }
+
   const map = output.characterMapping;
 
   const start = inputEl.selectionStart >= map.length ?
