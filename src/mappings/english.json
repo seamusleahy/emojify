@@ -142,5 +142,12 @@
   " too ": "\u2777",
   "goat": "\uD83D\uDC10",
   "scapegoat": "\uD83D\uDC10",
-  "for": "\u2463"
+  "for": "\u2463",
+  "book": "\uD83D\uDCD7",
+  "books": "\uD83D\uDCDA",
+  "heart": "\u2764\uFE0F",
+  "love": "\u2764\uFE0F",
+  "wc": "\uD83D\uDEBE",
+  "water closet": "\uD83D\uDEBE",
+  "watercloset": "\uD83D\uDEBE"
 }
