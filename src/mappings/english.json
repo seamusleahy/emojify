@@ -51,6 +51,7 @@
   "angry": "\uD83D\uDE21",
   "seamus": "\uD83C\uDF0A\uD83E\uDD84",
   "bee": "\uD83D\uDC1D",
+  " be ": " \uD83D\uDC1D ",
   "b": "\uD83D\uDC1D",
   "buzz": "\uD83D\uDC1D",
   "zzz": "\uD83D\uDCA4",
@@ -91,5 +92,7 @@
   "5am": "\uD83D\uDD54am",
   "5pm": "\uD83D\uDD54pm",
   "hour": "\u23F3",
-  "hourglass": "\u23F3"
+  "hourglass": "\u23F3",
+  " bsp ": " \uD83D\uDCA9\uD83D\uDEBD ",
+  "backseat pooper": "\uD83D\uDCA9\uD83D\uDEBD"
 }

@@ -31,3 +31,41 @@ body {
     background-color: #ccc;
     white-space: pre-wrap;
 }
+
+#output mark {
+    background-color: yellow;
+}
+
+#output mark:empty {
+    display: inline-block;
+    width: 1px;
+    margin-right: -1px;
+    min-height: 1.2em;
+    -webkit-animation-name: blink;
+            animation-name: blink;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    vertical-align: middle;
+}
+
+@-webkit-keyframes blink {
+    0%, 50% {
+        opacity: 0;
+    }
+
+    50%, 100% {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    0%, 50% {
+        opacity: 0;
+    }
+
+    50%, 100% {
+        opacity: 1;
+    }
+}

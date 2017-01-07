@@ -30,3 +30,28 @@ body {
     background-color: #ccc;
     white-space: pre-wrap;
 }
+
+#output mark {
+    background-color: yellow;
+}
+
+#output mark:empty {
+    display: inline-block;
+    width: 1px;
+    margin-right: -1px;
+    min-height: 1.2em;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    vertical-align: middle;
+}
+
+@keyframes blink {
+    0%, 50% {
+        opacity: 0;
+    }
+
+    50%, 100% {
+        opacity: 1;
+    }
+}

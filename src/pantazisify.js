@@ -9,6 +9,7 @@ function emojify(input, textToEmoji) {
     let match;
     let i = 0;
     let replacementLength = 1;
+    let replacedWithLength = 1;
 
 
     while (!match && i < textToEmoji.length) {
@@ -19,19 +20,20 @@ function emojify(input, textToEmoji) {
     if (match) {
       i -= 1;
       output += textToEmoji[i][2];
+      replacedWithLength = textToEmoji[i][2].length;
       replacementLength = textToEmoji[i][1];
     } else {
       output += remaining.charAt(0); // TODO Add support it emojies already in source
     }
 
-    const position = { start: outputPosition , end: outputPosition + 1};
+    const position = { start: outputPosition , end: outputPosition + replacedWithLength};
     for (let p = 0; p < replacementLength; p += 1) {
       characterMapping[inputPosition + p] = position;
     }
 
     remaining = remaining.substring(replacementLength);
     inputPosition += replacementLength;
-    outputPosition += 1;
+    outputPosition += replacedWithLength;
   }
 
   return { output, characterMapping };
