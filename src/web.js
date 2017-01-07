@@ -68,10 +68,21 @@ function updateSelected() {
   setTimeout(updateOutput, 0);
 }
 
-inputEl.addEventListener('input', e => {
-  const input = inputEl.value;
+function updateValue(input) {
   output = pantazisify(input, englishMapping);
   updateOutput();
+}
+
+function initalizeValue() {
+  const input = decodeURIComponent((window.location.search || '').substring(1));
+  updateValue(input);
+  inputEl.value = input;
+}
+
+inputEl.addEventListener('input', e => {
+  const input = inputEl.value;
+  updateValue(input);
+  window.history.replaceState(null, '', '?' + input);
 });
 
 inputEl.addEventListener('keydown', updateSelected);
@@ -84,3 +95,5 @@ inputEl.addEventListener('mouseup', e => {
   inputEl.removeEventListener('mousemove', updateSelected);
   updateSelected();
 });
+
+initalizeValue();
