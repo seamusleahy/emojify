@@ -21,7 +21,7 @@ body {
     width: 50%;
     border: 0;
     margin: 0;
-    padding: 10px;
+    padding: 10px 10px 40px;
 
     font-size: 16px;
     font-family: sans-serif;
@@ -68,4 +68,10 @@ body {
     50%, 100% {
         opacity: 1;
     }
+}
+
+.github {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
 }
