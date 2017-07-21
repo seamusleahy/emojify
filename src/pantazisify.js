@@ -23,7 +23,7 @@ function emojify(input, textToEmoji) {
       replacedWithLength = textToEmoji[i][2].length;
       replacementLength = textToEmoji[i][1];
     } else {
-      output += remaining.charAt(0); // TODO Add support it emojies already in source
+      output += remaining.charAt(0); // TODO Add support if emojies already in source
     }
 
     const position = { start: outputPosition , end: outputPosition + replacedWithLength};
